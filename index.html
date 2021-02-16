@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+
+  <meta charset="utf-8">
+
+  <title>Долгополов</title>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=3">
+
+    <link rel="stylesheet" type="text/css" href="css/mobile.css?v=3">
+
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="scripts/3d_photo_rotate.js"> </script>
+
+    <script type="text/javascript" src="scripts/work_time.js"> </script>
+
+    <script type="text/javascript" src="scripts/load_page.js"> </script>
+
+    <link href="http://allfont.ru/allfont.css?fonts=a_futuraround" rel="stylesheet" type="text/css" />
+
+    <link href="http://allfont.ru/allfont.css?fonts=futura-normal" rel="stylesheet" type="text/css" />
+
+ </head>	
+
+ <body>
+
+    <div class="name" id="name_header">
+
+      <div>Денис Долгополов</div>
+
+    </div>
+
+    <div class="header_container"> 
+
+      <div class="container_short_info">
+
+          <div>
+
+            <p class="word">Языки:</p>
+
+            <p>JavaScript, Java, Kotlin</p>
+
+          </div>
+
+          <div >
+
+            <p class="word">Верстка:</p>
+
+            <p>HTML, XML, CSS</p>
+
+          </div>
+
+          <div >
+
+            <p class="word">Основная специализация:</p>
+
+            <p>мобильные приложения</p>
+
+          </div>
+
+             <div >
+
+            <p class="word">Платформы:</p>
+
+            <p>Android, Web</p>
+
+          </div>
+
+          <div >
+
+            <p class="word">Опыт работы:</p>
+
+            <p id="date_work"></p>
+
+          </div>
+
+      </div>
+
+       <div id="my_photo_container">
+
+          <div id="my_photo" >
+
+             <div id="screen"></div>
+
+          </div>
+
+      </div>
+
+    </div>
+
+	<div class="word_projects_container_container" style="margin-top: 8vh;">
+
+        <div class="word_projects_container">
+
+           <p class="word_projects">Портфолио</p>
+
+        </div>
+
+    </div>
+
+    <div class="project_container">
+
+<div class="card_project_wrapper" id="alchemy">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/alchemy.webp" type="image/webp">
+<img class="card_project_img" src="./img/alchemy.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Игра "Алхимик"</p>
+<p class="card_project_short_desc">Ремейк культовой мобильной игры из нулевых</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="aruco_markers">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/aruco_markers.webp" type="image/webp">
+<img class="card_project_img" src="./img/aruco_markers.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Aruco Marker</p>
+<p class="card_project_short_desc">Распознание Аруко-маркеров. Получение битовой маски.</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="coffee_life">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/coffee_life.webp" type="image/webp">
+<img class="card_project_img" src="./img/coffee_life.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Coffee Life</p>
+<p class="card_project_short_desc">Скидка на кофе за подписку</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="iot">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/iot.webp" type="image/webp">
+<img class="card_project_img" src="./img/iot.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Умный дом</p>
+<p class="card_project_short_desc">Управление умным домом. Графики, статистика, рассчеты, адаптивность.</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="notebook_diary">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/notebook_diary.webp" type="image/webp">
+<img class="card_project_img" src="./img/notebook_diary.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Блокнот - ежедневник</p>
+<p class="card_project_short_desc">Органайзер для записи планов, текстов и списков.</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="technology_task">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/technology_task.webp" type="image/webp">
+<img class="card_project_img" src="./img/technology_task.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">ТЗ к игре</p>
+<p class="card_project_short_desc">Техническое задание для мобильного приложения</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="globaxi">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/globaxi.webp" type="image/webp">
+<img class="card_project_img" src="./img/globaxi.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Заказ такси</p>
+<p class="card_project_short_desc">Верстка приложения для заказа такси</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="talysh">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/talysh.webp" type="image/webp">
+<img class="card_project_img" src="./img/talysh.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">Талышский переводчик</p>
+<p class="card_project_short_desc">Перевод на 4 языка</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="grammar_top">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/grammar_top.webp" type="image/webp">
+<img class="card_project_img" src="./img/grammar_top.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">GrammarTop - обучение английскому</p>
+<p class="card_project_short_desc">Адаптация с iOS на Android</p>
+</div>
+</div>
+</div>
+<div class="card_project_wrapper" id="voice_it">"
+<div class="card_project_container">
+<picture>
+<source srcset="./img/voice_it.webp" type="image/webp">
+<img class="card_project_img" src="./img/voice_it.png">
+</picture>
+<div class="card_project_short_story">
+<p class="card_project_name">VoiceIt</p>
+<p class="card_project_short_desc">Социальная сеть с голосовыми историями</p>
+</div>
+</div>
+</div>
+
+    </div>
+    <div class="center_text">
+
+        <p class="heading">Технологии, фреймворки и библиотеки, с которыми приходилось работать: </p>
+
+    </div>
+
+    <div class="list_container">
+
+      <ul class="list_padding">
+
+<li>SQLite</li><li>RabbitMQ (AMQP)</li><li>RestAPI</li><li>Retrofit 2.0</li><li>Firebase Realtime Database</li><li>Firebase Storage</li><li>Firebase Authentication</li><li>Google Maps + Geocoding API</li><li>Yandex Map SDK</li><li>Migrate to AndroidX</li><li>Wi-Fi sockets</li><li>Bluetooth BLE sockets</li><li>GPS - user geolocation</li><li>Recycler View</li><li>Alternative Reality - EasyAR/AR Core</li><li>OpenGL</li><li>LibGDX</li><li>Material Design Views</li><ul><li>Card View</li><li>Bottom Sheet Layouts</li><li>Material Buttons</li><li>Floating action button (FAB)</li><li>View Pager, View Pager 2.0</li><li>Navigation Drawer View</li></ul><li>Custom View Components</li><li>MVP, MVVP - архитектура</li><li>Dark/Black Themes</li><li>JSON</li><li>Адаптивная верстка</li><ul><li>Телефоны</li><li>Планшеты</li><li>Безрамочные смартфоны</li></ul><li>Auth0</li><ul><li>Facebook</li><li>VK</li><li>Twitter</li><li>Одноклассники</li><li>Google+</li></ul><li>Cloud Payment - оплата подписки/товара</li><li>Offline Notifications</li><li>Splash Screen</li><li>Google AdMob + AdMob Rewarded Video</li><li>Google Billing Subscription</li><li>Fresh Desc</li><li>Glide</li><li>GitHub</li>
+      </ul>
+
+    </div>
+
+ <footer>
+        <div>
+          <p class="contact_word">Контакты:</p>
+          <div class="contact_container">
+            <div class="link_container_0">
+                <p>E-mail:</p>
+                <div class="link_container_1">
+                   <a href="mailto:dendolg1work@gmail.ru">dendolg1work@gmail.ru</a>
+                </div>
+            </div>
+
+            <div class="link_container_0">
+                <p>Телефон:</p>
+                <div class="link_container_1">
+                  <a href="tel: +79999187510">+7 999 918-75-10</a>
+                </div>
+            </div>
+
+            <div class="link_container_0">
+                <p>Telegram:</p>
+                <div class="link_container_1">
+                  <a href="https://t.me/dolgopolovdenis">@dolgopolovdenis</a>
+                </div>
+            </div>
+
+            <div class="link_container_0">
+                <p>VK:</p>
+                <div class="link_container_1">
+                    <a href="https://vk.com/ddolgop">@ddolgop</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="name" id="name_footer">
+            <div>Денис Долгополов</div>
+        </div>
+   </footer> 
+</body>
+
+</html>
