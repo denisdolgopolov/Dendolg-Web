@@ -1,12 +1,10 @@
-.slideshow-container {
+#slideshow_container {
   width: 40vw;
   height: 70vh;
   position: relative;
   margin: auto;
   margin-top: 2vh;
   display: block;
-
-
 }
 
 .photo {
@@ -31,23 +29,6 @@
   to {opacity: 1}
 }
 
-.image_description {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  display: inline-block;
-  z-index: 30;
-  text-align: center;
-  font-size: 2vh;
-  color: #fdfdfd;
-  padding: 2vh 1vh 2vh 1vh;
-  background: rgba(0, 0, 0, 0.6);
-  font-family: 'a_FuturaRound', arial;
-  line-height: 2.2vh;
-  bottom: 20vh;
-}
-
-
 .project_description {
   color: #ebebeb;
   font-family: 'a_FuturaRound', arial;
@@ -55,16 +36,16 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.6rem;
-  line-height: 3rem;
+  font-size: 1.7rem;
   margin-top: 0;
+  line-height: 2.2rem;
 }
 
 .margin_bottom {
   margin-bottom: 6vh;
 }
 
-.status {
+#status {
   display: block;
   position: relative;
   color: #B4B4B4;
@@ -74,7 +55,6 @@
   font-style: italic;
   font-size: 1.4rem;
 }
-
 
 
 
