@@ -6,12 +6,20 @@ Habr
 
 # Мои публикации на habr.com
 
-* Android — ViewPager2 — заменяем фрагменты на лету (программно)
+[Android — ViewPager2 — заменяем фрагменты на лету](https://habr.com/ru/post/544680/)
 
-* Исправляем Госуслуги малой кровью — добровольный редизайн мобильного приложения
+[Исправляем Госуслуги малой кровью — добровольный редизайн мобильного приложения](https://habr.com/ru/post/546966/)
 
-* Машинка на Arduino, управляемая Android-устройством по Bluetooth, — полный цикл (часть 1)
+[Машинка на Arduino, управляемая Android-устройством по Bluetooth, — полный цикл. Часть 1](https://habr.com/ru/post/424087/)
 
-* Машинка на Arduino, управляемая Android-устройством по Bluetooth, — код приложения и мк (часть 2)
+[Машинка на Arduino, управляемая Android-устройством по Bluetooth, — код приложения и мк. Часть 2](https://habr.com/ru/post/424813/)
 
-* Робо-футболист от начинающих. Соревнования в МФТИ. Android & Arduino & Bluetooth
+[Робо-футболист от начинающих. Соревнования в МФТИ. Android & Arduino & Bluetooth](https://habr.com/ru/post/448080/)
+
+[Как стать модным Android-разработчиком в 2022 году](https://habr.com/ru/post/652853/)
+
+[Почему разработчик не может быть тестировщиком. Или может?](https://habr.com/ru/post/598275/)
+
+[Очень быстро понимаем Android Build Flavors](https://habr.com/ru/post/597813/)
+
+[TG-канал об Android-разработке](https://t.me/dolgo_polo_dev)

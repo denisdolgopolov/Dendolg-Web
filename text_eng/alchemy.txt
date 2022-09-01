@@ -26,6 +26,7 @@
 
 
 .....
+
 Game "Alchemy"
 Project status. Completed 10.10.2017
 #c7bb54
@@ -33,7 +34,7 @@ Remake of famous game from 2000
 
 # Game description
 
-Game based on the cult game from 2000. Initially, the player is given 4 elements: water, earth, fire, air. By connecting them, the player gets new elements. For example:
+Пame based on the cult game from 2000. Initially, the player is given 4 elements: water, earth, fire, air. By connecting them, the player gets new elements. For example:
 
 * earth + fire = lava
 * air + fire = energy
